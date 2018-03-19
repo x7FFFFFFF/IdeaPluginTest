@@ -1,0 +1,9 @@
+<idea-plugin url="http://www.jetbrains.com/idea">
+
+    <!-- Plugin name -->
+    <name>SimplePlugin</name>
+    <extensions defaultExtensionNs="com.intellij">
+        <fileTypeFactory implementation="com.simple.SimpleFileTypeFactory"/>
+    </extensions>
+
+</idea-plugin>
