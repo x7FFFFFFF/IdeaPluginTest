@@ -4,6 +4,9 @@
     <name>SimplePlugin</name>
     <extensions defaultExtensionNs="com.intellij">
         <fileTypeFactory implementation="com.simple.SimpleFileTypeFactory"/>
+        <lang.parserDefinition language="Simple" implementationClass="com.simple.SimpleParserDefinition"/>
+        <lang.syntaxHighlighterFactory language="Simple" implementationClass="com.simple.SimpleSyntaxHighlighterFactory"/>
+        <colorSettingsPage implementation="com.simple.SimpleColorSettingsPage"/>
     </extensions>
 
 </idea-plugin>
